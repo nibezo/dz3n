@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RandomColor</title>
+    <style>
+        button.default {
+          background: rgb(248, 144, 144);
+          width: 550px;
+          height: 90px;
+          font-size: 17px;
+          transition: background 9999999s;
+        }
+    
+        button.default:active {
+          background: red;
+          transition: background 0s;
+        }
+    
+      </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <button onclick="RandomColor()">рандом цвет</button>
+    <button onclick="WhiteColor()">Белый цвет</button>
+    <td><button class="default">colorbutton</button></td>
+    <script src="app.js"></script>
+</body>
+</html>
